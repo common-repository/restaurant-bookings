@@ -1,0 +1,23 @@
+{
+	"translation-revision-date":"2018-02-04 07:50:00+0000",
+	"generator":"GlotPress\/2.4.0-alpha",
+	"domain":"restaurant-bookings",
+	"locale_data":{
+		"messages":{
+			"":{
+				"domain":"restaurant-bookings",
+				"plural-forms":"nplurals=2; plural=n != 1;",
+				"lang":"es"
+			},
+			"Restaurant Bookings":["Restaurant Bookings"],
+			"Businesses":["Negocios"],
+			"Content name":["Tipo de contenido"],
+			"Content item":["Contenido"],
+			"For order":["Para pedidos"],
+			"For booking":["Para reservas"],
+			"For takeaway":["Para takeaway"],
+			"For delivery":["Para pedidos"],
+			"Allways mobile":["Siempre móvil"]
+		}
+	}
+}

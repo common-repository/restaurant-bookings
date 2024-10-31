@@ -1,0 +1,2580 @@
+# Copyright (C) 2019 listae
+# This file is distributed under the same license as the Restaurant Bookings plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Restaurant Bookings 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/restaurant-bookings\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-02-04T09:05:14+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: restaurant-bookings\n"
+
+#. Plugin Name of the plugin
+msgid "Restaurant Bookings"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/extend/plugins/restaurant-bookings/"
+msgstr ""
+
+#. Author of the plugin
+msgid "listae"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://listae.com/"
+msgstr ""
+
+#: shortcodes.php:214
+msgid "Order"
+msgstr ""
+
+#: shortcodes.php:215
+msgid "See"
+msgstr ""
+
+#: shortcodes.php:216
+msgid "Information"
+msgstr ""
+
+#: shortcodes.php:266
+msgid "Deliver as soon as possible "
+msgstr ""
+
+#: shortcodes.php:269
+msgid "(the %1s at %2s approx.)."
+msgstr ""
+
+#: shortcodes.php:283
+#: inc/rbk-order-widget-utils.php:202
+msgid "Add items to the order"
+msgstr ""
+
+#: shortcodes.php:295
+msgid "Total"
+msgstr ""
+
+#: shortcodes.php:302
+msgid "Order now"
+msgstr ""
+
+#: shortcodes.php:364
+msgid "Catalog navigation"
+msgstr ""
+
+#: shortcodes.php:378
+msgid "Menus"
+msgstr ""
+
+#: shortcodes.php:407
+msgid "Set menus"
+msgstr ""
+
+#: shortcodes.php:504
+#: shortcodes.php:631
+#: rbk-widgets.php:624
+msgid "Full size image of %s"
+msgstr ""
+
+#: shortcodes.php:519
+msgid "(for %s pax.)"
+msgstr ""
+
+#: shortcodes.php:646
+msgid "(%s pax.)"
+msgstr ""
+
+#: shortcodes.php:656
+msgid "Book this set menu now"
+msgstr ""
+
+#: shortcodes.php:696
+msgid "Available for %s diners."
+msgstr ""
+
+#: shortcodes.php:698
+msgid "Available from desde %1$s to %2$s diners."
+msgstr ""
+
+#: shortcodes.php:700
+msgid "Available from %s diners."
+msgstr ""
+
+#: shortcodes.php:702
+msgid "Available to %s diners."
+msgstr ""
+
+#: shortcodes.php:712
+msgid "Set menu available: "
+msgstr ""
+
+#: shortcodes.php:719
+msgid "Set menu not available "
+msgstr ""
+
+#: shortcodes.php:727
+#: shortcodes.php:986
+msgid "Taxes NOT included."
+msgstr ""
+
+#: shortcodes.php:1179
+msgid "Price: "
+msgstr ""
+
+#: shortcodes.php:1185
+msgid "Minimum number per order: "
+msgstr ""
+
+#: shortcodes.php:1192
+msgid "Maximum number per order: "
+msgstr ""
+
+#: shortcodes.php:1199
+msgid "Coupons available: "
+msgstr ""
+
+#: shortcodes.php:1208
+msgid "Coupon available: "
+msgstr ""
+
+#: shortcodes.php:1215
+msgid "Coupon not available: "
+msgstr ""
+
+#: shortcodes.php:1230
+#: shortcodes.php:1301
+msgid "Buy Now"
+msgstr ""
+
+#: shortcodes.php:1237
+#: shortcodes.php:1308
+msgid "Gift Now"
+msgstr ""
+
+#: shortcodes.php:1275
+msgid "Buy conditions:"
+msgstr ""
+
+#: shortcodes.php:1287
+msgid "Gift conditions:"
+msgstr ""
+
+#: shortcodes.php:1378
+msgid "Book"
+msgstr ""
+
+#: shortcodes.php:1489
+#: shortcodes.php:1972
+#: inc/ae-api/utils.php:784
+#: rbk-widgets.php:698
+#: rbk-widgets.php:1192
+msgid "Bookings"
+msgstr ""
+
+#: shortcodes.php:1592
+#: inc/rbk-order-widget-utils.php:74
+#: inc/rbk-order-widget-utils.php:85
+#: listae-register.php:29
+#: rbktmce/dialog.php:15
+#: restaurant-bookings.php:157
+msgid "Close"
+msgstr ""
+
+#: shortcodes.php:1593
+msgid "&#x3c;Prev"
+msgstr ""
+
+#: shortcodes.php:1594
+msgid "Next&#x3e;"
+msgstr ""
+
+#: shortcodes.php:1595
+#: templates.php:401
+msgid "Today"
+msgstr ""
+
+#: shortcodes.php:1597
+msgid "January"
+msgstr ""
+
+#: shortcodes.php:1598
+msgid "February"
+msgstr ""
+
+#: shortcodes.php:1599
+msgid "March"
+msgstr ""
+
+#: shortcodes.php:1600
+msgid "April"
+msgstr ""
+
+#: shortcodes.php:1601
+msgid "May"
+msgstr ""
+
+#: shortcodes.php:1602
+msgid "June"
+msgstr ""
+
+#: shortcodes.php:1603
+msgid "July"
+msgstr ""
+
+#: shortcodes.php:1604
+msgid "August"
+msgstr ""
+
+#: shortcodes.php:1605
+msgid "September"
+msgstr ""
+
+#: shortcodes.php:1606
+msgid "October"
+msgstr ""
+
+#: shortcodes.php:1607
+msgid "November"
+msgstr ""
+
+#: shortcodes.php:1608
+msgid "December"
+msgstr ""
+
+#: shortcodes.php:1611
+msgctxt "Abbreviature of month January"
+msgid "Jan"
+msgstr ""
+
+#: shortcodes.php:1612
+msgctxt "Abbreviature of month February"
+msgid "Feb"
+msgstr ""
+
+#: shortcodes.php:1613
+msgctxt "Abbreviature of month March"
+msgid "Mar"
+msgstr ""
+
+#: shortcodes.php:1614
+msgctxt "Abbreviature of month April"
+msgid "Apr"
+msgstr ""
+
+#: shortcodes.php:1615
+msgctxt "Abbreviature of month May"
+msgid "May"
+msgstr ""
+
+#: shortcodes.php:1616
+msgctxt "Abbreviature of month June"
+msgid "Jun"
+msgstr ""
+
+#: shortcodes.php:1617
+msgctxt "Abbreviature of month July"
+msgid "Jul"
+msgstr ""
+
+#: shortcodes.php:1618
+msgctxt "Abbreviature of month August"
+msgid "Aug"
+msgstr ""
+
+#: shortcodes.php:1619
+msgctxt "Abbreviature of month September"
+msgid "Sep"
+msgstr ""
+
+#: shortcodes.php:1620
+msgctxt "Abbreviature of month October"
+msgid "Oct"
+msgstr ""
+
+#: shortcodes.php:1621
+msgctxt "Abbreviature of month November"
+msgid "Nov"
+msgstr ""
+
+#: shortcodes.php:1622
+msgctxt "Abbreviature of month December"
+msgid "Dec"
+msgstr ""
+
+#: shortcodes.php:1625
+msgid "Sunday"
+msgstr ""
+
+#: shortcodes.php:1626
+msgid "Monday"
+msgstr ""
+
+#: shortcodes.php:1627
+msgid "Tuesday"
+msgstr ""
+
+#: shortcodes.php:1628
+msgid "Wednesday"
+msgstr ""
+
+#: shortcodes.php:1629
+msgid "Thursday"
+msgstr ""
+
+#: shortcodes.php:1630
+msgid "Friday"
+msgstr ""
+
+#: shortcodes.php:1631
+msgid "Saturday"
+msgstr ""
+
+#: shortcodes.php:1634
+msgctxt "Abbreviature of weekday Sunday"
+msgid "Sun"
+msgstr ""
+
+#: shortcodes.php:1635
+msgctxt "Abbreviature of weekday Monday"
+msgid "Mon"
+msgstr ""
+
+#: shortcodes.php:1636
+msgctxt "Abbreviature of weekday Tuesday"
+msgid "Tue"
+msgstr ""
+
+#: shortcodes.php:1637
+msgctxt "Abbreviature of weekday Wednesday"
+msgid "Wed"
+msgstr ""
+
+#: shortcodes.php:1638
+msgctxt "Abbreviature of weekday Thursday"
+msgid "Thu"
+msgstr ""
+
+#: shortcodes.php:1639
+msgctxt "Abbreviature of weekday Friday"
+msgid "Fri"
+msgstr ""
+
+#: shortcodes.php:1640
+msgctxt "Abbreviature of weekday Saturday"
+msgid "Sat"
+msgstr ""
+
+#: shortcodes.php:1643
+msgctxt "Abbreviature two letters of weekday Sunday"
+msgid "Su"
+msgstr ""
+
+#: shortcodes.php:1644
+msgctxt "Abbreviature two letters of weekday Monday"
+msgid "Mo"
+msgstr ""
+
+#: shortcodes.php:1645
+msgctxt "Abbreviature two letters of weekday Tuesday"
+msgid "Tu"
+msgstr ""
+
+#: shortcodes.php:1646
+msgctxt "Abbreviature two letters of weekday Wednesday"
+msgid "We"
+msgstr ""
+
+#: shortcodes.php:1647
+msgctxt "Abbreviature two letters of weekday Thursday"
+msgid "Th"
+msgstr ""
+
+#: shortcodes.php:1648
+msgctxt "Abbreviature two letters of weekday Friday"
+msgid "Fr"
+msgstr ""
+
+#: shortcodes.php:1649
+msgctxt "Abbreviature two letters of weekday Saturday"
+msgid "Sa"
+msgstr ""
+
+#: shortcodes.php:1695
+msgid "Date"
+msgstr ""
+
+#: shortcodes.php:1699
+msgid "Hour"
+msgstr ""
+
+#: shortcodes.php:1709
+msgid "Diners"
+msgstr ""
+
+#: shortcodes.php:1717
+msgid "Reserve now"
+msgstr ""
+
+#: shortcodes.php:1846
+msgid "Reviews summary"
+msgstr ""
+
+#: shortcodes.php:1848
+#: templates.php:260
+#: rbk-widgets.php:1098
+msgid "General"
+msgstr ""
+
+#: shortcodes.php:1849
+#: templates.php:265
+#: rbk-widgets.php:1099
+msgid "Service"
+msgstr ""
+
+#: shortcodes.php:1850
+#: rbk-widgets.php:1100
+msgid "Food"
+msgstr ""
+
+#: shortcodes.php:1851
+#: templates.php:271
+#: rbk-widgets.php:1101
+msgid "Decoration"
+msgstr ""
+
+#: shortcodes.php:1857
+#: shortcodes.php:1858
+msgid "Verified Reviews by Listae"
+msgstr ""
+
+#: shortcodes.php:1860
+msgid "The reviews marked with the verification stamp come from effective reservations that the restaurant is obliged to publish without the possibility of modifying them"
+msgstr ""
+
+#: shortcodes.php:1875
+msgid "See more %1s reviews at %2s"
+msgstr ""
+
+#: shortcodes.php:1881
+#: rbk-widgets.php:1103
+msgid "At this time we have no reviews. If you know us, we encourage you to tell us your experience."
+msgstr ""
+
+#: shortcodes.php:1921
+msgid "Opening hours"
+msgstr ""
+
+#: shortcodes.php:1929
+msgid "Hours of service"
+msgstr ""
+
+#: shortcodes.php:1947
+msgctxt "titulo para  los dias de la semana en el shortcode de horario"
+msgid "l:"
+msgstr ""
+
+#: shortcodes.php:1953
+#: shortcodes.php:2000
+msgid "Special closures"
+msgstr ""
+
+#: shortcodes.php:1960
+#: shortcodes.php:2007
+msgid "Special openings"
+msgstr ""
+
+#: shortcodes.php:1976
+#: inc/rbk-order-widget-utils.php:114
+msgid "Delivery at home"
+msgstr ""
+
+#: shortcodes.php:1980
+msgid "Pick up"
+msgstr ""
+
+#: shortcodes.php:2057
+msgid "Latitude:"
+msgstr ""
+
+#: shortcodes.php:2057
+msgctxt "Abbreviation of North."
+msgid "N"
+msgstr ""
+
+#: shortcodes.php:2058
+msgid "Longitude:"
+msgstr ""
+
+#: shortcodes.php:2058
+msgctxt "Abbreviation of West."
+msgid "W"
+msgstr ""
+
+#: shortcodes.php:2153
+msgid "Get directions"
+msgstr ""
+
+#: shortcodes.php:2247
+msgid "See situation map"
+msgstr ""
+
+#: shortcodes.php:2280
+msgid "Telephone:"
+msgstr ""
+
+#: shortcodes.php:2315
+#: shortcodes.php:2316
+msgid "Contact"
+msgstr ""
+
+#: shortcodes.php:2325
+msgid "Request set menu for groups"
+msgstr ""
+
+#: shortcodes.php:2326
+msgid "Groups & Events"
+msgstr ""
+
+#: shortcodes.php:2421
+msgid "Ambience:"
+msgstr ""
+
+#: shortcodes.php:2425
+msgid "Good for:"
+msgstr ""
+
+#: shortcodes.php:2429
+msgid "Services:"
+msgstr ""
+
+#: shortcodes.php:2433
+msgid "Facilities:"
+msgstr ""
+
+#: shortcodes.php:2437
+msgid "Drinks:"
+msgstr ""
+
+#: shortcodes.php:2441
+msgid "Payment types:"
+msgstr ""
+
+#: shortcodes.php:2446
+msgid "Capacity:"
+msgstr ""
+
+#: shortcodes.php:2448
+msgid "One lounge. "
+msgid_plural "%d lounges. "
+msgstr[0] ""
+
+#: shortcodes.php:2451
+msgid "%s tables. "
+msgstr ""
+
+#: shortcodes.php:2455
+msgid "Until %s diners."
+msgstr ""
+
+#: shortcodes.php:2462
+msgid "Others:"
+msgstr ""
+
+#: inc/ae-api/utils.php:277
+msgid "Andorra"
+msgstr ""
+
+#: inc/ae-api/utils.php:278
+msgid "United Arab Emirates"
+msgstr ""
+
+#: inc/ae-api/utils.php:279
+msgid "Afghanistan"
+msgstr ""
+
+#: inc/ae-api/utils.php:280
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: inc/ae-api/utils.php:281
+msgid "Anguilla"
+msgstr ""
+
+#: inc/ae-api/utils.php:282
+msgid "Albania"
+msgstr ""
+
+#: inc/ae-api/utils.php:283
+msgid "Armenia"
+msgstr ""
+
+#: inc/ae-api/utils.php:284
+msgid "Angola"
+msgstr ""
+
+#: inc/ae-api/utils.php:285
+msgid "Antarctica"
+msgstr ""
+
+#: inc/ae-api/utils.php:286
+msgid "Argentina"
+msgstr ""
+
+#: inc/ae-api/utils.php:287
+msgid "American Samoa"
+msgstr ""
+
+#: inc/ae-api/utils.php:288
+msgid "Austria"
+msgstr ""
+
+#: inc/ae-api/utils.php:289
+msgid "Australia"
+msgstr ""
+
+#: inc/ae-api/utils.php:290
+msgid "Aruba"
+msgstr ""
+
+#: inc/ae-api/utils.php:291
+msgid "Åland Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:292
+msgid "Azerbaijan"
+msgstr ""
+
+#: inc/ae-api/utils.php:293
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: inc/ae-api/utils.php:294
+msgid "Barbados"
+msgstr ""
+
+#: inc/ae-api/utils.php:295
+msgid "Bangladesh"
+msgstr ""
+
+#: inc/ae-api/utils.php:296
+msgid "Belgium"
+msgstr ""
+
+#: inc/ae-api/utils.php:297
+msgid "Burkina Faso"
+msgstr ""
+
+#: inc/ae-api/utils.php:298
+msgid "Bulgaria"
+msgstr ""
+
+#: inc/ae-api/utils.php:299
+msgid "Bahrain"
+msgstr ""
+
+#: inc/ae-api/utils.php:300
+msgid "Burundi"
+msgstr ""
+
+#: inc/ae-api/utils.php:301
+msgid "Benin"
+msgstr ""
+
+#: inc/ae-api/utils.php:302
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: inc/ae-api/utils.php:303
+msgid "Bermuda"
+msgstr ""
+
+#: inc/ae-api/utils.php:304
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: inc/ae-api/utils.php:305
+msgid "Bolivia (Plurinational State of)"
+msgstr ""
+
+#: inc/ae-api/utils.php:306
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr ""
+
+#: inc/ae-api/utils.php:307
+msgid "Brazil"
+msgstr ""
+
+#: inc/ae-api/utils.php:308
+msgid "Bahamas"
+msgstr ""
+
+#: inc/ae-api/utils.php:309
+msgid "Bhutan"
+msgstr ""
+
+#: inc/ae-api/utils.php:310
+msgid "Bouvet Island"
+msgstr ""
+
+#: inc/ae-api/utils.php:311
+msgid "Botswana"
+msgstr ""
+
+#: inc/ae-api/utils.php:312
+msgid "Belarus"
+msgstr ""
+
+#: inc/ae-api/utils.php:313
+msgid "Belize"
+msgstr ""
+
+#: inc/ae-api/utils.php:314
+msgid "Canada"
+msgstr ""
+
+#: inc/ae-api/utils.php:315
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:316
+msgid "Congo, Democratic Republic of the"
+msgstr ""
+
+#: inc/ae-api/utils.php:317
+msgid "Central African Republic"
+msgstr ""
+
+#: inc/ae-api/utils.php:318
+msgid "Congo"
+msgstr ""
+
+#: inc/ae-api/utils.php:319
+msgid "Switzerland"
+msgstr ""
+
+#: inc/ae-api/utils.php:320
+msgid "Côte d'Ivoire"
+msgstr ""
+
+#: inc/ae-api/utils.php:321
+msgid "Cook Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:322
+msgid "Chile"
+msgstr ""
+
+#: inc/ae-api/utils.php:323
+msgid "Cameroon"
+msgstr ""
+
+#: inc/ae-api/utils.php:324
+msgid "China"
+msgstr ""
+
+#: inc/ae-api/utils.php:325
+msgid "Colombia"
+msgstr ""
+
+#: inc/ae-api/utils.php:326
+msgid "Costa Rica"
+msgstr ""
+
+#: inc/ae-api/utils.php:327
+msgid "Cuba"
+msgstr ""
+
+#: inc/ae-api/utils.php:328
+msgid "Cabo Verde"
+msgstr ""
+
+#: inc/ae-api/utils.php:329
+msgid "Curaçao"
+msgstr ""
+
+#: inc/ae-api/utils.php:330
+msgid "Christmas Island"
+msgstr ""
+
+#: inc/ae-api/utils.php:331
+msgid "Cyprus"
+msgstr ""
+
+#: inc/ae-api/utils.php:332
+msgid "Czechia"
+msgstr ""
+
+#: inc/ae-api/utils.php:333
+msgid "Germany"
+msgstr ""
+
+#: inc/ae-api/utils.php:334
+msgid "Djibouti"
+msgstr ""
+
+#: inc/ae-api/utils.php:335
+msgid "Denmark"
+msgstr ""
+
+#: inc/ae-api/utils.php:336
+msgid "Dominica"
+msgstr ""
+
+#: inc/ae-api/utils.php:337
+msgid "Dominican Republic"
+msgstr ""
+
+#: inc/ae-api/utils.php:338
+msgid "Algeria"
+msgstr ""
+
+#: inc/ae-api/utils.php:339
+msgid "Ecuador"
+msgstr ""
+
+#: inc/ae-api/utils.php:340
+msgid "Estonia"
+msgstr ""
+
+#: inc/ae-api/utils.php:341
+msgid "Egypt"
+msgstr ""
+
+#: inc/ae-api/utils.php:342
+msgid "Western Sahara"
+msgstr ""
+
+#: inc/ae-api/utils.php:343
+msgid "Eritrea"
+msgstr ""
+
+#: inc/ae-api/utils.php:344
+msgid "Spain"
+msgstr ""
+
+#: inc/ae-api/utils.php:345
+msgid "Ethiopia"
+msgstr ""
+
+#: inc/ae-api/utils.php:346
+msgid "Finland"
+msgstr ""
+
+#: inc/ae-api/utils.php:347
+msgid "Fiji"
+msgstr ""
+
+#: inc/ae-api/utils.php:348
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: inc/ae-api/utils.php:349
+msgid "Micronesia (Federated States of)"
+msgstr ""
+
+#: inc/ae-api/utils.php:350
+msgid "Faroe Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:351
+msgid "France"
+msgstr ""
+
+#: inc/ae-api/utils.php:352
+msgid "Gabon"
+msgstr ""
+
+#: inc/ae-api/utils.php:353
+msgid "United Kingdom of Great Britain and Northern Ireland"
+msgstr ""
+
+#: inc/ae-api/utils.php:354
+msgid "Grenada"
+msgstr ""
+
+#: inc/ae-api/utils.php:355
+msgid "Georgia"
+msgstr ""
+
+#: inc/ae-api/utils.php:356
+msgid "French Guiana"
+msgstr ""
+
+#: inc/ae-api/utils.php:357
+msgid "Guernsey"
+msgstr ""
+
+#: inc/ae-api/utils.php:358
+msgid "Ghana"
+msgstr ""
+
+#: inc/ae-api/utils.php:359
+msgid "Gibraltar"
+msgstr ""
+
+#: inc/ae-api/utils.php:360
+msgid "Greenland"
+msgstr ""
+
+#: inc/ae-api/utils.php:361
+msgid "Gambia"
+msgstr ""
+
+#: inc/ae-api/utils.php:362
+msgid "Guinea"
+msgstr ""
+
+#: inc/ae-api/utils.php:363
+msgid "Guadeloupe"
+msgstr ""
+
+#: inc/ae-api/utils.php:364
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: inc/ae-api/utils.php:365
+msgid "Greece"
+msgstr ""
+
+#: inc/ae-api/utils.php:366
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:367
+msgid "Guatemala"
+msgstr ""
+
+#: inc/ae-api/utils.php:368
+msgid "Guam"
+msgstr ""
+
+#: inc/ae-api/utils.php:369
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: inc/ae-api/utils.php:370
+msgid "Guyana"
+msgstr ""
+
+#: inc/ae-api/utils.php:371
+msgid "Hong Kong"
+msgstr ""
+
+#: inc/ae-api/utils.php:372
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:373
+msgid "Honduras"
+msgstr ""
+
+#: inc/ae-api/utils.php:374
+msgid "Croatia"
+msgstr ""
+
+#: inc/ae-api/utils.php:375
+msgid "Haiti"
+msgstr ""
+
+#: inc/ae-api/utils.php:376
+msgid "Hungary"
+msgstr ""
+
+#: inc/ae-api/utils.php:377
+msgid "Indonesia"
+msgstr ""
+
+#: inc/ae-api/utils.php:378
+msgid "Ireland"
+msgstr ""
+
+#: inc/ae-api/utils.php:379
+msgid "Israel"
+msgstr ""
+
+#: inc/ae-api/utils.php:380
+msgid "Isle of Man"
+msgstr ""
+
+#: inc/ae-api/utils.php:381
+msgid "India"
+msgstr ""
+
+#: inc/ae-api/utils.php:382
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: inc/ae-api/utils.php:383
+msgid "Iraq"
+msgstr ""
+
+#: inc/ae-api/utils.php:384
+msgid "Iran (Islamic Republic of)"
+msgstr ""
+
+#: inc/ae-api/utils.php:385
+msgid "Iceland"
+msgstr ""
+
+#: inc/ae-api/utils.php:386
+msgid "Italy"
+msgstr ""
+
+#: inc/ae-api/utils.php:387
+msgid "Jersey"
+msgstr ""
+
+#: inc/ae-api/utils.php:388
+msgid "Jamaica"
+msgstr ""
+
+#: inc/ae-api/utils.php:389
+msgid "Jordan"
+msgstr ""
+
+#: inc/ae-api/utils.php:390
+msgid "Japan"
+msgstr ""
+
+#: inc/ae-api/utils.php:391
+msgid "Kenya"
+msgstr ""
+
+#: inc/ae-api/utils.php:392
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: inc/ae-api/utils.php:393
+msgid "Cambodia"
+msgstr ""
+
+#: inc/ae-api/utils.php:394
+msgid "Kiribati"
+msgstr ""
+
+#: inc/ae-api/utils.php:395
+msgid "Comoros"
+msgstr ""
+
+#: inc/ae-api/utils.php:396
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: inc/ae-api/utils.php:397
+msgid "Korea (Democratic People's Republic of)"
+msgstr ""
+
+#: inc/ae-api/utils.php:398
+msgid "Korea, Republic of"
+msgstr ""
+
+#: inc/ae-api/utils.php:399
+msgid "Kuwait"
+msgstr ""
+
+#: inc/ae-api/utils.php:400
+msgid "Cayman Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:401
+msgid "Kazakhstan"
+msgstr ""
+
+#: inc/ae-api/utils.php:402
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: inc/ae-api/utils.php:403
+msgid "Lebanon"
+msgstr ""
+
+#: inc/ae-api/utils.php:404
+msgid "Saint Lucia"
+msgstr ""
+
+#: inc/ae-api/utils.php:405
+msgid "Liechtenstein"
+msgstr ""
+
+#: inc/ae-api/utils.php:406
+msgid "Sri Lanka"
+msgstr ""
+
+#: inc/ae-api/utils.php:407
+msgid "Liberia"
+msgstr ""
+
+#: inc/ae-api/utils.php:408
+msgid "Lesotho"
+msgstr ""
+
+#: inc/ae-api/utils.php:409
+msgid "Lithuania"
+msgstr ""
+
+#: inc/ae-api/utils.php:410
+msgid "Luxembourg"
+msgstr ""
+
+#: inc/ae-api/utils.php:411
+msgid "Latvia"
+msgstr ""
+
+#: inc/ae-api/utils.php:412
+msgid "Libya"
+msgstr ""
+
+#: inc/ae-api/utils.php:413
+msgid "Morocco"
+msgstr ""
+
+#: inc/ae-api/utils.php:414
+msgid "Monaco"
+msgstr ""
+
+#: inc/ae-api/utils.php:415
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: inc/ae-api/utils.php:416
+msgid "Montenegro"
+msgstr ""
+
+#: inc/ae-api/utils.php:417
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: inc/ae-api/utils.php:418
+msgid "Madagascar"
+msgstr ""
+
+#: inc/ae-api/utils.php:419
+msgid "Marshall Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:420
+msgid "Macedonia, the former Yugoslav Republic of"
+msgstr ""
+
+#: inc/ae-api/utils.php:421
+msgid "Mali"
+msgstr ""
+
+#: inc/ae-api/utils.php:422
+msgid "Myanmar"
+msgstr ""
+
+#: inc/ae-api/utils.php:423
+msgid "Mongolia"
+msgstr ""
+
+#: inc/ae-api/utils.php:424
+msgid "Macao"
+msgstr ""
+
+#: inc/ae-api/utils.php:425
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:426
+msgid "Martinique"
+msgstr ""
+
+#: inc/ae-api/utils.php:427
+msgid "Mauritania"
+msgstr ""
+
+#: inc/ae-api/utils.php:428
+msgid "Montserrat"
+msgstr ""
+
+#: inc/ae-api/utils.php:429
+msgid "Malta"
+msgstr ""
+
+#: inc/ae-api/utils.php:430
+msgid "Mauritius"
+msgstr ""
+
+#: inc/ae-api/utils.php:431
+msgid "Maldives"
+msgstr ""
+
+#: inc/ae-api/utils.php:432
+msgid "Malawi"
+msgstr ""
+
+#: inc/ae-api/utils.php:433
+msgid "Mexico"
+msgstr ""
+
+#: inc/ae-api/utils.php:434
+msgid "Malaysia"
+msgstr ""
+
+#: inc/ae-api/utils.php:435
+msgid "Mozambique"
+msgstr ""
+
+#: inc/ae-api/utils.php:436
+msgid "Namibia"
+msgstr ""
+
+#: inc/ae-api/utils.php:437
+msgid "New Caledonia"
+msgstr ""
+
+#: inc/ae-api/utils.php:438
+msgid "Niger"
+msgstr ""
+
+#: inc/ae-api/utils.php:439
+msgid "Norfolk Island"
+msgstr ""
+
+#: inc/ae-api/utils.php:440
+msgid "Nigeria"
+msgstr ""
+
+#: inc/ae-api/utils.php:441
+msgid "Nicaragua"
+msgstr ""
+
+#: inc/ae-api/utils.php:442
+msgid "Netherlands"
+msgstr ""
+
+#: inc/ae-api/utils.php:443
+msgid "Norway"
+msgstr ""
+
+#: inc/ae-api/utils.php:444
+msgid "Nepal"
+msgstr ""
+
+#: inc/ae-api/utils.php:445
+msgid "Nauru"
+msgstr ""
+
+#: inc/ae-api/utils.php:446
+msgid "Niue"
+msgstr ""
+
+#: inc/ae-api/utils.php:447
+msgid "New Zealand"
+msgstr ""
+
+#: inc/ae-api/utils.php:448
+msgid "Oman"
+msgstr ""
+
+#: inc/ae-api/utils.php:449
+msgid "Panama"
+msgstr ""
+
+#: inc/ae-api/utils.php:450
+msgid "Peru"
+msgstr ""
+
+#: inc/ae-api/utils.php:451
+msgid "French Polynesia"
+msgstr ""
+
+#: inc/ae-api/utils.php:452
+msgid "Papua New Guinea"
+msgstr ""
+
+#: inc/ae-api/utils.php:453
+msgid "Philippines"
+msgstr ""
+
+#: inc/ae-api/utils.php:454
+msgid "Pakistan"
+msgstr ""
+
+#: inc/ae-api/utils.php:455
+msgid "Poland"
+msgstr ""
+
+#: inc/ae-api/utils.php:456
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: inc/ae-api/utils.php:457
+msgid "Pitcairn"
+msgstr ""
+
+#: inc/ae-api/utils.php:458
+msgid "Puerto Rico"
+msgstr ""
+
+#: inc/ae-api/utils.php:459
+msgid "Palestine, State of"
+msgstr ""
+
+#: inc/ae-api/utils.php:460
+msgid "Portugal"
+msgstr ""
+
+#: inc/ae-api/utils.php:461
+msgid "Palau"
+msgstr ""
+
+#: inc/ae-api/utils.php:462
+msgid "Paraguay"
+msgstr ""
+
+#: inc/ae-api/utils.php:463
+msgid "Qatar"
+msgstr ""
+
+#: inc/ae-api/utils.php:464
+msgid "Réunion"
+msgstr ""
+
+#: inc/ae-api/utils.php:465
+msgid "Romania"
+msgstr ""
+
+#: inc/ae-api/utils.php:466
+msgid "Serbia"
+msgstr ""
+
+#: inc/ae-api/utils.php:467
+msgid "Russian Federation"
+msgstr ""
+
+#: inc/ae-api/utils.php:468
+msgid "Rwanda"
+msgstr ""
+
+#: inc/ae-api/utils.php:469
+msgid "Saudi Arabia"
+msgstr ""
+
+#: inc/ae-api/utils.php:470
+msgid "Solomon Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:471
+msgid "Seychelles"
+msgstr ""
+
+#: inc/ae-api/utils.php:472
+msgid "Sudan"
+msgstr ""
+
+#: inc/ae-api/utils.php:473
+msgid "Sweden"
+msgstr ""
+
+#: inc/ae-api/utils.php:474
+msgid "Singapore"
+msgstr ""
+
+#: inc/ae-api/utils.php:475
+msgid "Saint Helena, Ascension and Tristan da Cunha"
+msgstr ""
+
+#: inc/ae-api/utils.php:476
+msgid "Slovenia"
+msgstr ""
+
+#: inc/ae-api/utils.php:477
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: inc/ae-api/utils.php:478
+msgid "Slovakia"
+msgstr ""
+
+#: inc/ae-api/utils.php:479
+msgid "Sierra Leone"
+msgstr ""
+
+#: inc/ae-api/utils.php:480
+msgid "San Marino"
+msgstr ""
+
+#: inc/ae-api/utils.php:481
+msgid "Senegal"
+msgstr ""
+
+#: inc/ae-api/utils.php:482
+msgid "Somalia"
+msgstr ""
+
+#: inc/ae-api/utils.php:483
+msgid "Suriname"
+msgstr ""
+
+#: inc/ae-api/utils.php:484
+msgid "South Sudan"
+msgstr ""
+
+#: inc/ae-api/utils.php:485
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: inc/ae-api/utils.php:486
+msgid "El Salvador"
+msgstr ""
+
+#: inc/ae-api/utils.php:487
+msgid "Sint Maarten (Dutch part)"
+msgstr ""
+
+#: inc/ae-api/utils.php:488
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: inc/ae-api/utils.php:489
+msgid "Eswatini"
+msgstr ""
+
+#: inc/ae-api/utils.php:490
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:491
+msgid "Chad"
+msgstr ""
+
+#: inc/ae-api/utils.php:492
+msgid "French Southern Territories"
+msgstr ""
+
+#: inc/ae-api/utils.php:493
+msgid "Togo"
+msgstr ""
+
+#: inc/ae-api/utils.php:494
+msgid "Thailand"
+msgstr ""
+
+#: inc/ae-api/utils.php:495
+msgid "Tajikistan"
+msgstr ""
+
+#: inc/ae-api/utils.php:496
+msgid "Tokelau"
+msgstr ""
+
+#: inc/ae-api/utils.php:497
+msgid "Timor-Leste"
+msgstr ""
+
+#: inc/ae-api/utils.php:498
+msgid "Turkmenistan"
+msgstr ""
+
+#: inc/ae-api/utils.php:499
+msgid "Tunisia"
+msgstr ""
+
+#: inc/ae-api/utils.php:500
+msgid "Tonga"
+msgstr ""
+
+#: inc/ae-api/utils.php:501
+msgid "Turkey"
+msgstr ""
+
+#: inc/ae-api/utils.php:502
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: inc/ae-api/utils.php:503
+msgid "Tuvalu"
+msgstr ""
+
+#: inc/ae-api/utils.php:504
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: inc/ae-api/utils.php:505
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: inc/ae-api/utils.php:506
+msgid "Ukraine"
+msgstr ""
+
+#: inc/ae-api/utils.php:507
+msgid "Uganda"
+msgstr ""
+
+#: inc/ae-api/utils.php:508
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: inc/ae-api/utils.php:509
+msgid "United States of America"
+msgstr ""
+
+#: inc/ae-api/utils.php:510
+msgid "Uruguay"
+msgstr ""
+
+#: inc/ae-api/utils.php:511
+msgid "Uzbekistan"
+msgstr ""
+
+#: inc/ae-api/utils.php:512
+msgid "Holy See"
+msgstr ""
+
+#: inc/ae-api/utils.php:513
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: inc/ae-api/utils.php:514
+msgid "Venezuela (Bolivarian Republic of)"
+msgstr ""
+
+#: inc/ae-api/utils.php:515
+msgid "Virgin Islands (British)"
+msgstr ""
+
+#: inc/ae-api/utils.php:516
+msgid "Virgin Islands (U.S.)"
+msgstr ""
+
+#: inc/ae-api/utils.php:517
+msgid "Viet Nam"
+msgstr ""
+
+#: inc/ae-api/utils.php:518
+msgid "Vanuatu"
+msgstr ""
+
+#: inc/ae-api/utils.php:519
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: inc/ae-api/utils.php:520
+msgid "Samoa"
+msgstr ""
+
+#: inc/ae-api/utils.php:521
+msgid "Yemen"
+msgstr ""
+
+#: inc/ae-api/utils.php:522
+msgid "Mayotte"
+msgstr ""
+
+#: inc/ae-api/utils.php:523
+msgid "South Africa"
+msgstr ""
+
+#: inc/ae-api/utils.php:524
+msgid "Zambia"
+msgstr ""
+
+#: inc/ae-api/utils.php:525
+msgid "Zimbabwe"
+msgstr ""
+
+#: inc/ae-api/utils.php:760
+msgid "Reason: business"
+msgstr ""
+
+#: inc/ae-api/utils.php:761
+msgid "Occasion: family"
+msgstr ""
+
+#: inc/ae-api/utils.php:762
+msgid "Occasion: friends"
+msgstr ""
+
+#: inc/ae-api/utils.php:763
+msgid "Occasion: couple"
+msgstr ""
+
+#: inc/ae-api/utils.php:764
+msgid "Occasion: alone"
+msgstr ""
+
+#: inc/ae-api/utils.php:768
+msgid "Occasion: others"
+msgstr ""
+
+#: inc/ae-api/utils.php:773
+msgid "News"
+msgstr ""
+
+#: inc/ae-api/utils.php:774
+msgid "Web site"
+msgstr ""
+
+#: inc/ae-api/utils.php:780
+msgid "Logo"
+msgstr ""
+
+#: inc/ae-api/utils.php:781
+msgid "Featured image"
+msgstr ""
+
+#: inc/ae-api/utils.php:782
+msgid "Video"
+msgstr ""
+
+#: inc/ae-api/utils.php:783
+msgid "Article"
+msgstr ""
+
+#: inc/ae-api/utils.php:794
+#: listae-admin-page.php:98
+msgid "Others"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:62
+msgid "Add to order"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:63
+msgid "Add"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:64
+#: rbktmce/dialog.php:108
+#: rbktmce/dialog.php:123
+msgid "Cancel"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:67
+msgid "Select type of order"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:68
+msgid "Select"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:72
+msgid "Delivery areas"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:77
+msgid "Check that the postal code of the address where you want to receive the order is among the following:"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:83
+#: rbk-widgets.php:764
+msgid "Opening"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:120
+msgid "Pick up on local"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:126
+msgid "Consume in local"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:201
+#: inc/rbk-order-widget-utils.php:279
+#: inc/rbk-order-widget-utils.php:309
+msgid "Minimum order amount:% s"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:203
+msgid "Connection error, try again later."
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:204
+msgid "\"{0}\" is required."
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:235
+msgid "See delivery areas"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:236
+msgid "The current order contains items that are not valid to deliver at home."
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:240
+msgid "Delivey cost: %s"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:242
+msgid "Delivery cost"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:254
+msgid "Check pick-up times"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:259
+msgid "The current order contains items that are not valid to pick up at the restaurant."
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:271
+msgid "Make your reservation including in advance the order to be consumed"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:315
+msgid "Orders are not allowed for today, sorry for the inconvenience."
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:324
+msgid "Minimum advance: %s"
+msgstr ""
+
+#: inc/rbk-order-widget-utils.php:327
+msgid "Orders are only served during opening hours. Thank you very much."
+msgstr ""
+
+#: templates.php:53
+msgctxt "Dias de la semana"
+msgid "The %s."
+msgstr ""
+
+#: templates.php:67
+msgctxt "Meses"
+msgid "On %s. "
+msgstr ""
+
+#: templates.php:71
+#: templates.php:75
+#: templates.php:76
+#: templates.php:80
+#: templates.php:84
+msgctxt "Formato de fecha largo"
+msgid "F j\\t\\h \\o\\f Y"
+msgstr ""
+
+#: templates.php:73
+msgctxt "Fecha larga exacta"
+msgid "The %s. "
+msgstr ""
+
+#: templates.php:78
+msgctxt "Rango entre fechas largas"
+msgid "From %1$s until %2$s. "
+msgstr ""
+
+#: templates.php:82
+msgctxt "Rango entre fechas largas"
+msgid "From %s. "
+msgstr ""
+
+#: templates.php:86
+msgctxt "Rango entre fechas largas"
+msgid "Until %s. "
+msgstr ""
+
+#: templates.php:92
+msgctxt "Rango horas"
+msgid "From %1$s to %2$s. "
+msgstr ""
+
+#: templates.php:94
+msgctxt "Rango horas"
+msgid "From %s. "
+msgstr ""
+
+#: templates.php:96
+msgctxt "Rango horas"
+msgid "To %s. "
+msgstr ""
+
+#: templates.php:130
+#: templates.php:169
+#: templates.php:194
+#: templates.php:216
+msgid "%1s stars of 5"
+msgstr ""
+
+#: templates.php:142
+msgid "Base on "
+msgstr ""
+
+#: templates.php:143
+msgid "review"
+msgid_plural "reviews"
+msgstr[0] ""
+
+#: templates.php:247
+msgid "Review of "
+msgstr ""
+
+#: templates.php:251
+msgid "by"
+msgstr ""
+
+#: templates.php:268
+msgid "Kitchen"
+msgstr ""
+
+#: templates.php:289
+msgid "Review from an effective reservation whose editing or moderation is not allowed"
+msgstr ""
+
+#: templates.php:290
+msgid "Review verify"
+msgstr ""
+
+#: templates.php:294
+msgid "Review from %s."
+msgstr ""
+
+#: templates.php:316
+msgid "Answer by %s"
+msgstr ""
+
+#: templates.php:414
+msgid "Closed"
+msgstr ""
+
+#: templates.php:423
+msgctxt "Rango entre horas desde : %1$s hasta : %2$s"
+msgid "%1$s - %2$s h."
+msgstr ""
+
+#: listae-register.php:26
+msgid "Log in to Listae"
+msgstr ""
+
+#: listae-register.php:28
+msgid "Accept and Connect"
+msgstr ""
+
+#: listae-register.php:38
+msgid "We are almost finished."
+msgstr ""
+
+#: listae-register.php:41
+msgid "Connect to listae.com to complete the activation of Restaurant Bookings."
+msgstr ""
+
+#: listae-register.php:74
+msgid "!! Congratulations!! you are already connected with listae.com"
+msgstr ""
+
+#: listae-register.php:77
+msgid "Listae configuration options"
+msgstr ""
+
+#: listae-register.php:84
+msgid "It seems that there is no business linked to your Listae account, you must add one if you want that this plugin provides any functionality to your website."
+msgstr ""
+
+#: listae-register.php:91
+msgid "Oops! We could not connect with Listae.com. Try the connection again. It is recommended that you are previously logged in at Listae.com with your username and password."
+msgstr ""
+
+#: listae-register.php:108
+msgid "Connect"
+msgstr ""
+
+#: listae-register.php:114
+msgid "To connect your website to Listae you previously must have completed the registration of your business."
+msgstr ""
+
+#: listae-register.php:115
+msgid "Connect to Listae"
+msgstr ""
+
+#: listae-register.php:125
+msgid "Api Key"
+msgstr ""
+
+#: listae-register.php:131
+msgid "In case you have not been able to complete the connection of your website to Listae, please include here the access code provided by our Technical Support."
+msgstr ""
+
+#: listae-register.php:133
+msgid "Listae access code"
+msgstr ""
+
+#: listae-register.php:135
+msgid "Submit"
+msgstr ""
+
+#: rbk-widgets.php:78
+msgid "Restaurant"
+msgstr ""
+
+#: rbk-widgets.php:97
+#: rbktmce/dialog.php:101
+msgid "It seems that you do not have any restaurant linked to your Listae account, add a restaurant to use this functionality."
+msgstr ""
+
+#: rbk-widgets.php:106
+msgid "Title:"
+msgstr ""
+
+#: rbk-widgets.php:113
+msgid "Text:"
+msgstr ""
+
+#: rbk-widgets.php:146
+msgid "Target page:"
+msgstr ""
+
+#: rbk-widgets.php:283
+#: rbktmce/dialog.php:46
+msgid "Content"
+msgstr ""
+
+#: rbk-widgets.php:290
+#: rbk-gutenberg.php:54
+#: rbktmce/dialog.php:60
+msgid "All the menus"
+msgstr ""
+
+#: rbk-widgets.php:293
+msgid "Carte group"
+msgstr ""
+
+#: rbk-widgets.php:296
+#: rbk-gutenberg.php:52
+#: rbktmce/dialog.php:58
+msgid "Menu"
+msgstr ""
+
+#: rbk-widgets.php:299
+#: rbk-gutenberg.php:57
+#: rbktmce/dialog.php:63
+msgid "All the set menus"
+msgstr ""
+
+#: rbk-widgets.php:302
+#: rbk-gutenberg.php:53
+#: rbk-gutenberg.php:56
+#: rbktmce/dialog.php:59
+#: rbktmce/dialog.php:62
+msgid "Menu group"
+msgstr ""
+
+#: rbk-widgets.php:308
+#: rbk-gutenberg.php:58
+#: rbktmce/dialog.php:64
+msgid "Set menus availables for reservation"
+msgstr ""
+
+#: rbk-widgets.php:312
+#: rbktmce/dialog.php:97
+msgid "Element"
+msgstr ""
+
+#: rbk-widgets.php:441
+msgid "Catalog summary"
+msgstr ""
+
+#: rbk-widgets.php:443
+msgid "Mini-Widget for a catalog summary, a group or even a catalog item"
+msgstr ""
+
+#: rbk-widgets.php:445
+msgid "Location of item detail:"
+msgstr ""
+
+#: rbk-widgets.php:474
+msgid "Max. No. images:"
+msgstr ""
+
+#: rbk-widgets.php:480
+msgid "Content height"
+msgstr ""
+
+#: rbk-widgets.php:700
+msgid "Listae online booking widget"
+msgstr ""
+
+#: rbk-widgets.php:702
+msgid "Booking form link:"
+msgstr ""
+
+#: rbk-widgets.php:766
+msgid "Opening information widget"
+msgstr ""
+
+#: rbk-widgets.php:768
+msgid "Link to Opening detail:"
+msgstr ""
+
+#: rbk-widgets.php:816
+msgctxt "Title for the days of the week in the time widget"
+msgid "D:"
+msgstr ""
+
+#: rbk-widgets.php:824
+msgid "Detailed timetable"
+msgstr ""
+
+#: rbk-widgets.php:863
+msgid "Show link to opening detail"
+msgstr ""
+
+#: rbk-widgets.php:871
+msgid "Map"
+msgstr ""
+
+#: rbk-widgets.php:873
+msgid "Map, address, telephone and links of the business"
+msgstr ""
+
+#: rbk-widgets.php:875
+msgid "Link to map detail:"
+msgstr ""
+
+#: rbk-widgets.php:1001
+msgid "Show map"
+msgstr ""
+
+#: rbk-widgets.php:1006
+msgid "Show address"
+msgstr ""
+
+#: rbk-widgets.php:1011
+msgid "Shot telephones"
+msgstr ""
+
+#: rbk-widgets.php:1016
+msgid "Show social links"
+msgstr ""
+
+#: rbk-widgets.php:1022
+msgid "Show contact button"
+msgstr ""
+
+#: rbk-widgets.php:1024
+msgid "Contact form link"
+msgstr ""
+
+#: rbk-widgets.php:1037
+msgid "Show group menu form link"
+msgstr ""
+
+#: rbk-widgets.php:1039
+msgid "Group menu form link:"
+msgstr ""
+
+#: rbk-widgets.php:1054
+#: rbk-gutenberg.php:61
+#: rbktmce/dialog.php:67
+msgid "Reviews"
+msgstr ""
+
+#: rbk-widgets.php:1056
+msgid "Reviews of the business"
+msgstr ""
+
+#: rbk-widgets.php:1058
+msgid "Link to reviews page:"
+msgstr ""
+
+#: rbk-widgets.php:1109
+msgid "Last review"
+msgstr ""
+
+#: rbk-widgets.php:1122
+msgid "See reviews"
+msgstr ""
+
+#: rbk-widgets.php:1136
+msgid "Review"
+msgstr ""
+
+#: rbk-widgets.php:1179
+msgid "Link to review form:"
+msgstr ""
+
+#: rbk-widgets.php:1189
+msgid "Filter:"
+msgstr ""
+
+#: rbk-widgets.php:1191
+msgid "All"
+msgstr ""
+
+#: rbk-widgets.php:1193
+msgid "Web"
+msgstr ""
+
+#: rbk-widgets.php:1199
+msgid "Show last review"
+msgstr ""
+
+#: rbk-widgets.php:1204
+msgid "Show link to reviews"
+msgstr ""
+
+#: rbk-widgets.php:1209
+msgid "Show lint to review"
+msgstr ""
+
+#: rbk-widgets.php:1216
+msgid "Orders: shopping cart"
+msgstr ""
+
+#: rbk-widgets.php:1218
+msgid "Shopping cart for orders"
+msgstr ""
+
+#: rbk-widgets.php:1220
+msgid "Link to order form:"
+msgstr ""
+
+#: rbk-widgets.php:1244
+#: rbk-widgets.php:1373
+msgid "No online ordering system has been activated."
+msgstr ""
+
+#: rbk-widgets.php:1293
+msgid "Show bookings options"
+msgstr ""
+
+#: rbk-widgets.php:1294
+msgid "Show takeaway options"
+msgstr ""
+
+#: rbk-widgets.php:1295
+msgid "Show delivery options"
+msgstr ""
+
+#: rbk-widgets.php:1296
+#: rbktmce/dialog.php:92
+msgid "Always fixed on the bottom"
+msgstr ""
+
+#: rbk-widgets.php:1348
+#: rbk-widgets.php:1355
+msgid "Orders: group navigation"
+msgstr ""
+
+#: rbk-widgets.php:1350
+msgid "Navigation for orders"
+msgstr ""
+
+#: rbk-widgets.php:1353
+msgid "Orders navigation menu"
+msgstr ""
+
+#: option-page.php:59
+msgid "Disconnection of your website from Listae.com completed."
+msgstr ""
+
+#: option-page.php:62
+msgid "New connection to Listae.com"
+msgstr ""
+
+#: option-page.php:78
+msgid "Listae connection"
+msgstr ""
+
+#: option-page.php:81
+msgid "Your website is connected to Listae.com."
+msgstr ""
+
+#: option-page.php:82
+msgid "Disconnect your website from Listae.com."
+msgstr ""
+
+#: option-page.php:88
+msgid "Skin"
+msgstr ""
+
+#: option-page.php:91
+msgid "By default the Listae forms are shown with a clear color appearance, dark texts assuming clear backgrounds (black over white), if your website has dark backgrounds you can reverse this scheme by selecting a Dark appearance (white over black)."
+msgstr ""
+
+#: option-page.php:93
+msgid "Light"
+msgstr ""
+
+#: option-page.php:94
+msgid "Dark"
+msgstr ""
+
+#: option-page.php:101
+msgid "Bootstrap"
+msgstr ""
+
+#: option-page.php:104
+msgid "We use the stylesheet and the Javascript libraries of Bootstrap 4, if your theme also uses them, errors may occur when they are added duplicated."
+msgstr ""
+
+#: option-page.php:105
+msgid "Do not include css style sheets from Bootstrap"
+msgstr ""
+
+#: option-page.php:106
+msgid "Do not include Bootstrap Javascript libraries"
+msgstr ""
+
+#: option-page.php:113
+msgid "Convert shortcodes into blocks"
+msgstr ""
+
+#: option-page.php:116
+msgid "Migrate old shortcodes to new gutenberg blocks. This process is irreversible and is only necessary if you ever used shortcodes."
+msgstr ""
+
+#: option-page.php:118
+msgid "No"
+msgstr ""
+
+#: option-page.php:119
+msgid "Yes"
+msgstr ""
+
+#: option-page.php:128
+msgid "Update options"
+msgstr ""
+
+#: rbk-gutenberg.php:42
+#: rbktmce/dialog.php:48
+msgid "Booking form"
+msgstr ""
+
+#: rbk-gutenberg.php:43
+#: rbktmce/dialog.php:49
+msgid "Contact form"
+msgstr ""
+
+#: rbk-gutenberg.php:44
+#: rbktmce/dialog.php:50
+msgid "Group menu request form"
+msgstr ""
+
+#: rbk-gutenberg.php:45
+#: rbktmce/dialog.php:51
+msgid "Order form"
+msgstr ""
+
+#: rbk-gutenberg.php:46
+#: rbktmce/dialog.php:52
+msgid "All the items available for orders"
+msgstr ""
+
+#: rbk-gutenberg.php:47
+#: rbktmce/dialog.php:53
+msgid "Cart for orders"
+msgstr ""
+
+#: rbk-gutenberg.php:48
+#: rbktmce/dialog.php:54
+msgid "Orders category navigation"
+msgstr ""
+
+#: rbk-gutenberg.php:49
+#: rbktmce/dialog.php:55
+msgid "Reviews form"
+msgstr ""
+
+#: rbk-gutenberg.php:50
+#: rbktmce/dialog.php:56
+msgid "Schedulle / Opening"
+msgstr ""
+
+#: rbk-gutenberg.php:51
+#: rbktmce/dialog.php:57
+msgid "Map / Address"
+msgstr ""
+
+#: rbk-gutenberg.php:55
+msgid "Set Menu"
+msgstr ""
+
+#: rbk-gutenberg.php:59
+#: rbktmce/dialog.php:65
+msgid "Coupons"
+msgstr ""
+
+#: rbk-gutenberg.php:60
+#: rbktmce/dialog.php:66
+msgid "Services"
+msgstr ""
+
+#: rbk-gutenberg.php:63
+#: restaurant-bookings.php:171
+msgid "Ops! We were unable to retrieve the data linked to the busines"
+msgstr ""
+
+#: rbk-gutenberg.php:178
+msgid "Attributes error generating shortcode!"
+msgstr ""
+
+#: rbktmce/languages.php:12
+msgid "Contents of Listae"
+msgstr ""
+
+#: rbktmce/languages.php:13
+msgid "Delete"
+msgstr ""
+
+#: rbktmce/languages.php:14
+msgid "Manage Listae content"
+msgstr ""
+
+#: rbktmce/dialog.php:14
+msgid "Insert / edit contents from Listae"
+msgstr ""
+
+#: rbktmce/dialog.php:22
+msgid "Select business and content to publish and clic on insert."
+msgstr ""
+
+#: rbktmce/dialog.php:26
+msgid "Business"
+msgstr ""
+
+#: rbktmce/dialog.php:72
+msgid "For orders"
+msgstr ""
+
+#: rbktmce/dialog.php:77
+msgid "Booking"
+msgstr ""
+
+#: rbktmce/dialog.php:82
+msgid "Takeaway"
+msgstr ""
+
+#: rbktmce/dialog.php:87
+msgid "Delivery"
+msgstr ""
+
+#: rbktmce/dialog.php:111
+msgid "Accept"
+msgstr ""
+
+#: rbktmce/dialog.php:117
+msgid "403: Forbidden access to Listae.com."
+msgstr ""
+
+#: rbktmce/dialog.php:119
+msgid "404: request not found"
+msgstr ""
+
+#: rbktmce/dialog.php:121
+msgid "Oops, it seems we have some problem and connection to listae failed. Check your server connection as well as your login credentials and try again."
+msgstr ""
+
+#: listae-admin-page.php:29
+msgid "Registry"
+msgstr ""
+
+#: listae-admin-page.php:62
+msgid "Discover everything you can do with Listae to make your website an effective source of income."
+msgstr ""
+
+#: listae-admin-page.php:63
+msgid "Visit Listae"
+msgstr ""
+
+#: listae-admin-page.php:75
+msgid "Make your website great by incorporating the advanced features of Listae, let us help you adjust the design of your theme so that they shine on any device."
+msgstr ""
+
+#: listae-admin-page.php:76
+msgid "Information to improve my website "
+msgstr ""
+
+#: listae-admin-page.php:76
+msgid "I want help to incorporate the advanced features of Listae into my website "
+msgstr ""
+
+#: listae-admin-page.php:76
+msgid "Ask for information about our success packages "
+msgstr ""
+
+#: listae-admin-page.php:86
+msgid "Technical support request"
+msgstr ""
+
+#: listae-admin-page.php:89
+msgid "Something is not working well? Do you have problems connecting to Listae? Contact our support team, they will try to answer you as soon as possible."
+msgstr ""
+
+#: listae-admin-page.php:93
+msgid "I manage the website as"
+msgstr ""
+
+#: listae-admin-page.php:95
+msgid "Select an option"
+msgstr ""
+
+#: listae-admin-page.php:96
+msgid "Owner of the bussiness"
+msgstr ""
+
+#: listae-admin-page.php:97
+msgid "Web agent"
+msgstr ""
+
+#: listae-admin-page.php:103
+msgid "Your e-mail"
+msgstr ""
+
+#: listae-admin-page.php:104
+msgid "name@domain.com"
+msgstr ""
+
+#: listae-admin-page.php:105
+msgid "We will answer to this e-mail, verify carefully that it is correct"
+msgstr ""
+
+#: listae-admin-page.php:109
+msgid "Message"
+msgstr ""
+
+#: listae-admin-page.php:110
+msgid "Hi, I wanted to request information for..."
+msgstr ""
+
+#: listae-admin-page.php:113
+msgid "Send additional information"
+msgstr ""
+
+#: listae-admin-page.php:114
+msgid "The support team will need this information to help you efficiently."
+msgstr ""
+
+#: listae-admin-page.php:118
+msgid "The options values ​​of the Restaurant Bookings will also be sent"
+msgstr ""
+
+#: listae-admin-page.php:122
+msgid "Submit support request"
+msgstr ""
+
+#: listae-admin-page.php:135
+msgid "Check that the email address is correct."
+msgstr ""
+
+#: listae-admin-page.php:158
+msgid "Something is not working with your Wordpress mail sent . You will have to send us an email manually to rbk@listae.com"
+msgstr ""
+
+#: listae-admin-page.php:167
+msgid "Wordpress version: "
+msgstr ""
+
+#: listae-admin-page.php:168
+msgid "RBK plugin version: "
+msgstr ""
+
+#: listae-admin-page.php:169
+msgid "Listae Key: "
+msgstr ""
+
+#: listae-admin-page.php:169
+msgid "Hidden"
+msgstr ""
+
+#: listae-admin-page.php:170
+msgid "Skin RBK: "
+msgstr ""
+
+#: listae-admin-page.php:171
+msgid "Exclude Bootstrap JS: "
+msgstr ""
+
+#: listae-admin-page.php:172
+msgid "Exclude Bootstrap CSS: "
+msgstr ""
+
+#: listae-admin-page.php:173
+msgid "PHP version: "
+msgstr ""
+
+#: listae-admin-page.php:174
+msgid "CURL library: "
+msgstr ""
+
+#: listae-admin-page.php:188
+msgid "HTTP extension: "
+msgstr ""
+
+#: listae-admin-page.php:190
+msgid "Web site url: "
+msgstr ""
+
+#: listae-admin-page.php:191
+msgid "Wordpress URL: "
+msgstr ""
+
+#: listae-admin-page.php:192
+msgid "Theme: "
+msgstr ""
+
+#: listae-admin-page.php:254
+msgid "All fields of the technical support request form are required."
+msgstr ""
+
+#: listae-admin-page.php:255
+msgid "Message sent!. Our agents will try to answer you as soon as possible."
+msgstr ""
+
+#: listae-admin-page.php:256
+msgid "Oops! Something went wrong, please refresh the page and try again."
+msgstr ""
+
+#: restaurant-bookings.php:20
+msgid "System requirements not met"
+msgstr ""
+
+#: restaurant-bookings.php:21
+msgid "Restaurant Bookings needs the php-curl library."
+msgstr ""
+
+#: restaurant-bookings.php:22
+msgid "More information at http://php.net/manual/es/book.curl.php"
+msgstr ""
+
+#: restaurant-bookings.php:179
+msgid ""
+"Are you sure?.\n"
+"\n"
+"This action remove your credentials to access listae.com services."
+msgstr ""
+
+#: restaurant-bookings.php:186
+msgid "Settings"
+msgstr ""
+
+#: gutenberg/rbk-gutenberg.js:221
+msgid "Listae contents"
+msgstr ""
+
+#: gutenberg/rbk-gutenberg.js:268
+msgid "Businesses"
+msgstr ""
+
+#: gutenberg/rbk-gutenberg.js:283
+msgid "Content name"
+msgstr ""
+
+#: gutenberg/rbk-gutenberg.js:296
+msgid "Content item"
+msgstr ""
+
+#: gutenberg/rbk-gutenberg.js:321
+msgid "For order"
+msgstr ""
+
+#: gutenberg/rbk-gutenberg.js:331
+msgid "For booking"
+msgstr ""
+
+#: gutenberg/rbk-gutenberg.js:341
+msgid "For takeaway"
+msgstr ""
+
+#: gutenberg/rbk-gutenberg.js:351
+msgid "For delivery"
+msgstr ""
+
+#: gutenberg/rbk-gutenberg.js:361
+msgid "Allways mobile"
+msgstr ""

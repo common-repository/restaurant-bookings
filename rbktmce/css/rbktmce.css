@@ -1,0 +1,41 @@
+.rbk-tinymce {
+    background: url("../img/ae.png") no-repeat scroll center center #FFF;
+    border: 2px dashed rgba(0,0,0,0.3);
+    height: 150px;
+    padding : 10px;
+    margin : 10px 0;
+    overflow : hidden;
+}
+
+.rbk-tinymce[data-mce-selected] {
+    background-color: rgba(0,0,0,0.1) !important;
+}
+
+.rbk-tinymce div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+    outline: 0;
+    padding: 0;
+    border: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.ae-fix {
+	z-index: -1;
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+    outline: 0;
+    padding: 0;
+    border: 0;
+    width: 1px;
+    height: 1px;
+}
+
+#rbktmcebtns {
+    display: none;
+}
